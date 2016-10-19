@@ -1,0 +1,179 @@
+/* main Body Section */
+body{
+    font-family: Arial, Raleway, sans-serif;
+    padding-top: 70px;
+
+}
+#fName{
+    color: #fff;
+    font-weight: 600;
+}
+#lName{
+    color: #3605fa;
+    font-weight: 600;
+
+}
+.navbar {
+    margin-bottom: 0;
+    text-align: center;
+}
+small {
+    color: #3605fa;
+    font-size: 12PX;
+}
+
+.navbar-inverse{
+    /*background: #afbcc9;*/
+    background: darkgray;
+    border: none;
+
+
+
+}
+
+.mainPage {
+	background: url(../img/lake.jpg) no-repeat;
+}
+iframe{
+    margin: 10px 15px;
+    height: 250px;
+}
+.navbar-inverse .navbar-brand{
+   color: #ecf0f1;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ecf0f1;
+}
+
+.mainPage{
+    background: rgba(192,192,192,1);
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.fa{
+    float: left;
+    margin: 0 5px;
+}
+
+#content{
+    color: cornsilk;
+    text-align: center;
+    padding-top: 10%;
+    /*text shadow*/
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+
+}
+.container{
+    padding: 40px;
+}
+img {
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+
+
+
+p{
+    font-family: Arial;
+    font-size: 14px;
+}
+
+aside{
+    padding-top: 10px;
+    color:#2D249A;
+}
+
+hr.style-eight {
+    width: auto;
+    padding: 0;
+    border: none;
+    border-top: medium double #ecf0f1;
+    color: #2D249A;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgba(192,192,192, 1);
+    -webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+
+
+
+ul{
+    list-style: none;
+
+}
+h3{
+    padding: 0 30px;
+}
+
+h4{
+    text-align: left;
+    padding: 5px 0 5px 100px
+
+}
+
+
+/* ============== */
+/* Footer Section */
+/* ============== */
+
+.social{
+    float: left;
+    padding-left: 10px;
+
+    margin-bottom: 0;
+
+
+}
+.social li{
+    display: inline-block;
+    padding-right: 5px;
+    color: white;
+}
+.footer{
+
+    background:darkgray;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+
+
+}
+
+li a img{
+    color: white;
+}
+#myPhoto{
+    height: 255px;
+    width: auto;
+    border: 2px solid gray;
+    border-radius: 18%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+
+
+}

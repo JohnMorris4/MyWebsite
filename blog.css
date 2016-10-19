@@ -1,0 +1,34 @@
+.container{
+    margin: 20px auto;
+    max-width: 700px;
+    width: 80%;
+    border: 20px solid #bdc3c7;
+    font-family: source sans pro;
+
+
+}
+
+.blogPost {
+
+    padding: 20px;
+
+}
+hr{
+    margin: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(52, 152, 219, 0.75), rgba(0, 0, 0, 0));
+    height: .8px;
+}
+
+.date{
+    color:#3498db;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+h2{
+    font-size: 2em;
+    color: #2c3e50;
+}
+.blogPost p:nth-of-type(1){
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
